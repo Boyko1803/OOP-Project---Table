@@ -1,0 +1,36 @@
+﻿  Cell.cpp
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(55,7): error C2374: 'Index': redefinition; multiple initialization
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(27): message : see declaration of 'Index'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(58,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(57,1): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(338): message : see declaration of 'strncpy'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(53,2): error C2360: initialization of 'newIndex' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(27): message : see declaration of 'newIndex'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(53,2): error C2360: initialization of 'Index' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(27): message : see declaration of 'Index'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(62,2): error C2361: initialization of 'Index' is skipped by 'default' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(55): message : see declaration of 'Index'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(62,2): error C2361: initialization of 'newIndex' is skipped by 'default' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(27): message : see declaration of 'newIndex'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(103,2): error C2360: initialization of 'Number' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(96): message : see declaration of 'Number'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(103,2): error C2360: initialization of 'numberOfDigits' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(95): message : see declaration of 'numberOfDigits'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(105,2): error C2360: initialization of 'Number' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(96): message : see declaration of 'Number'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(105,2): error C2360: initialization of 'numberOfDigits' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(95): message : see declaration of 'numberOfDigits'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(107,2): error C2360: initialization of 'Number' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(96): message : see declaration of 'Number'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(107,2): error C2360: initialization of 'numberOfDigits' is skipped by 'case' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(95): message : see declaration of 'numberOfDigits'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(109,2): error C2361: initialization of 'Number' is skipped by 'default' label
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(96): message : see declaration of 'Number'
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(109,2): error C2361: initialization of 'numberOfDigits' is skipped by 'default' label
+  Commands.cpp
+  File.cpp
+  main.cpp
+  Row.cpp
+  Table.cpp
+  Generating Code...
+C:\Programs\Projects\Project 1 - Table\Table\Cell.cpp(95): message : see declaration of 'numberOfDigits'
