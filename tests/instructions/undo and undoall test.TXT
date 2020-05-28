@@ -1,0 +1,58 @@
+undo
+undoall
+
+/// Програмата ще изведе, че трябва първо да бъде отворен файл преди да може да се използва функцията
+
+open ..\tests\original files\undo.txt
+
+undo
+undoall
+
+/// Програмата ще изведе, че няма промени, който да се отмахнат
+
+print
+edit 1 1 "text"
+edit 4 2 123
+edit 2 5 = 2 ^ 10
+edit 3 3
+print
+undo
+print
+undo
+print
+undo
+print
+undo
+print
+
+/// Поетапно се отменя всяко от 3-те промени
+
+edit 3 7 999
+edit 8 3 -2.654
+edit 10 8 "row 8 column 8"
+print
+undo
+print
+undo
+print
+undo
+print
+
+/// Освен че се отменят промените в стойността на клетките, се отмeнят и разширенията на таблицата
+
+edit 1 1 0
+edit 4 1 99
+edit 3 2 "sdgg"
+edit 2 7 = 45
+edit 6 4 12345
+edit 5 5 "135"
+edit 8 3
+edit 3 1 "\"x\""
+print
+undoall
+print
+
+/// Отменят се всички направени промени от отварянето на файла
+
+close
+exit

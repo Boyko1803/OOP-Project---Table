@@ -1,0 +1,50 @@
+edit 1 1 12
+
+/// Програмата ще изведе, че трябва първо да бъде отворен файл, за да може да се променян стойностите на клетки
+
+open ..\tests\original files\edit.txt
+saveas ..\tests\result files\edit.txt
+close
+open ..\tests\result files\edit.txt
+
+edit
+edit dksjghewirt fklgnrwui gvwrelgtjedit
+edit 15 hjfghghfgh
+edit 34gf  23 1
+edit 4 -7 123
+edit 0 6 "text"
+edit 124546237457234 5   = 1 + 1
+
+/// Всеки от тези опити за промяна на клетка е невалиден, защото първите два аргумента са некоректни и програмата ще изведе подходящи съобщения
+
+edit 3 4 dfhdfhggdh
+edit 3 4 123.123.123
+edit 3 4 23qerqw145
+edit 3 4 "dsfh sdjf sdjf
+edit 3 4 "sfg r" "jdsf ryt"
+edit 3 4 "sfg r" 456
+edit 3 4 12.67 11.54
+
+/// Всеки от тези опити за промяна на клетка е невалиден, защото третият аргумент е некоректен и програмата ще изведе подходящи съобщения
+
+print
+edit 1 1 "text"
+edit 2 2 1234
+edit 4 1 = R2C2 - 234
+edit 1 4 "row 1 column 4"
+edit 4 4 -65.368
+edit 3 3 .0033
+print
+
+/// Тези входове са валидни и клетките ще си променят стойността
+
+edit 5 5 0.2456
+edit 10 2 987
+edit 6 7 "qtteutw"
+print
+save
+
+/// Таблицата ще се разшири, за да побере новите клетки
+
+close
+exit

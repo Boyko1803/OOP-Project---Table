@@ -1,0 +1,39 @@
+save
+saveas ..\tests\result files\saved.txt
+
+/// Програмата ще изведе, че трябва първо да бъде отворен файл преди да може да бъде запаметен
+
+open ..\tests\original files\normal.txt
+print
+
+save 12 56
+save dkafhnrouw rwlkjfro
+saveas
+saveas nonExistingFolder\saved.txt
+saveas ..\nonExistingFolder\saved.txt
+
+\\\ Всичките тези опити за запаметяване са невалидни и програмата ще изведе подходящи съобщения
+
+saveas ..\tests\result files\saved.txt
+
+\\\ Програмата успешно ще запамети копие на файла в подадената локация
+
+close
+open ..\tests\result files\saved.txt
+print
+
+\\\ Съдържанието на запаметения файл е същото както на оригиналния
+
+edit 1 1 42
+save
+
+\\\ Съдържанието на първата клетка ще се промени и ще се запамети обратно във файла.
+
+close
+open ..\tests\result files\saved.txt
+print
+
+\\\ Новата стойност на клетката се е запазила във файла
+
+close
+exit
