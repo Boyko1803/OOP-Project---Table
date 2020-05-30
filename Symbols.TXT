@@ -1,4 +1,4 @@
-Symbols meaning:
+This is the meaning of different symbols in the code:
 E - Empty cell
 I - Integer cell
 R - Real cell
