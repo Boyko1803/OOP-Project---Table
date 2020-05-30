@@ -1,0 +1,14 @@
+/// Symbols meaning:
+/// E - Empty cell
+/// I - Integer cell
+/// R - Real cell
+/// T - Text cell
+/// F - Formula cell
+/// Q - Missing quotation mark
+/// C - Missing comma
+/// U - Unknown type
+/// P - Position problem
+/// L - File location problem
+/// O - Opened file
+/// N - Not opened file
+/// S - Successful task
